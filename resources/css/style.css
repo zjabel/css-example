@@ -1,0 +1,48 @@
+/* Add flex layout to the body to distribute the elements */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*Style for the header content*/
+.header, .footer {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for web name and navbar*/
+.header_navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.web_name {
+  font-size: 34px;
+  color: white;
+}
+.navbar_links {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+.navbar_links a {
+  font-size: 20px;
+  color: white;
+}
+
+/* Image width and height */
+.content_img img {
+  width: 240px;
+  height: 240px;
+}
