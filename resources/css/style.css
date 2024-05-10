@@ -13,8 +13,12 @@ ul {
 a {
   text-decoration: none;
 }
-/*Style for the header content*/
-.header, .footer {
+button{
+  cursor: pointer;
+}
+/*Style for the header and footer content*/
+.header,
+.footer {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
@@ -40,9 +44,71 @@ a {
   font-size: 20px;
   color: white;
 }
+.header_content {
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content_description {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.content_title {
+  font-size: 48px;
+  font-weight: 400;
+  flex: 1;
+  max-width: 403px;
+}
+/* Modify Canary Islands (text label) font*/
+.canary_text {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.content_description button {
+  max-width: 150px;
+  
+}
 
 /* Image width and height */
 .content_img img {
+  display: flex;
+  align-items: center;
   width: 240px;
   height: 240px;
+}
+
+/*Styles for project container*/
+.project_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project_container p{
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.projects{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 30px;
+}
+/*Style for each individual project*/
+.project{
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  gap: 30;
+}
+.project button{
+  background: transparent;
+  border-radius: 12px #3882f6;
+  
 }

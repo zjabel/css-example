@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/resources/css/style.css" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
       rel="stylesheet"
     />
     <title>Default web template</title>
@@ -18,29 +24,62 @@
         <p class="web_name">Jabel Dev</p>
         <ul class="navbar_links">
           <li><a href="./index.html">Index</a></li>
-          <li><a href="/pages/about.html">About me</a></li>
-          <li><a href="/pages/contact.html">Contact</a></li>
+          <li><a href="./pages/about.html">About me</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
         </ul>
       </div>
       <div class="header_content">
-        <div class="content">
-          <h2 class="content_title"></h2>
+        <div class="content_description">
+          <p class="content_title">
+            Full Stack developer from
+            <label class="canary_text">Canary Islands🌴</label>
+          </p>
           <p class="content_text">
             A personal portfolio to show you my Skills ✨
           </p>
-          <button class="content_button">Subscribe to my newsletter 📨</button>
+          <button class="content_button">Subscribe 📨</button>
         </div>
         <div class="content_img">
-          <img src="/resources/img/squid_dev.png" alt="A laptop image :D" />
+          <img src="./resources/img/squid_dev.png" alt="A funny octo :D" />
         </div>
       </div>
-      
     </div>
     <div class="project_container">
-        <h2 class="project_container_title">Some of my projects</h2>
-        <div class="project_container_projects">
-            <button class="weather_app"><a href=""></a></button>
+      <p>Some of my projects</p>
+      <div class="projects">
+        <div class="project">
+          <button type="button">
+            <img
+              src="./resources/img/weather_app_logo.png"
+              height="90"
+              width="90"
+            />
+          </button>
+          <label>A weather app</label></div>
+          <div class="project">
+            <button type="button" action>
+              <img
+                src="./resources/img/socialmedia_app_logo.png"
+                height="90"
+                width="90"
+              />
+            </button>
+            <label>Social media app</label></div>
         </div>
+        
+        <div class="project">
+          <button type="button">
+            <img
+              src="./resources/img/calculator_app_logo.png"
+              height="90"
+              width="90"
+            />
+          </button>
+          <label>Calculator app</label></div>
+      </div>
+      
+      
+  </div>
     </div>
     <div class="footer"></div>
   </body>
