@@ -2,7 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: auto;
   font-family: "Roboto", sans-serif;
 }
 
@@ -13,50 +13,56 @@ ul {
 a {
   text-decoration: none;
 }
-button{
+button {
   cursor: pointer;
 }
 /*Style for the header and footer content*/
 .header,
 .footer {
-  background-color: #1f2937;
+  background-color: #213044;
   display: flex;
   flex-direction: column;
+  color: rgb(0, 0, 0);
 }
 
 /* Style for web name and navbar*/
 .header_navbar {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 .web_name {
   font-size: 34px;
   color: white;
 }
 .navbar_links {
+  padding: 0;
   font-size: 20px;
   color: white;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
-.navbar_links a {
-  font-size: 20px;
-  color: white;
+.navbar_logos {
+  height: 40px;
+  width: 40px;
 }
 .header_content {
-  padding-bottom: 60px;
+  padding: 70px 0;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.content_description {  
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
+.content_description {
+  gap: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .content_title {
+  margin: 0;
+  align-items: center;
   font-size: 48px;
   font-weight: 400;
   flex: 1;
@@ -70,7 +76,8 @@ button{
 }
 .content_description button {
   max-width: 150px;
-  
+  border-radius: 10px;
+  font-family: "Poetsen One", sans-serif;
 }
 
 /* Image width and height */
@@ -82,33 +89,53 @@ button{
 }
 
 /*Styles for project container*/
-.project_container{
+.project_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
-.project_container p{
+.project_container p {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
 }
-.projects{
+.projects {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
   gap: 30px;
 }
 /*Style for each individual project*/
-.project{
+.project {
   display: flex;
   flex-direction: column;
   background: transparent;
-  gap: 30;
+  gap: 20px;
 }
-.project button{
+.project button {
   background: transparent;
-  border-radius: 12px #3882f6;
-  
+  border-radius: 12px;
+  border-color: #3882f6;
+}
+/*Style for quote section*/
+.quote{
+  display: flex;
+  background-color: #E5E7EB;
+  padding: 100px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+/*Style for login section*/
+
+/*Style for the footer*/
+
+.footer {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: flex-end;
 }
