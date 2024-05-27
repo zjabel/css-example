@@ -13,9 +13,14 @@ ul {
 a {
   text-decoration: none;
 }
+
 button {
   cursor: pointer;
+  max-width: 150px;
+  border-radius: 10px;
+  font-family: "Poetsen One", sans-serif;
 }
+
 /*Style for the header and footer content*/
 .header,
 .footer {
@@ -31,10 +36,12 @@ button {
   align-items: center;
   justify-content: space-around;
 }
+
 .web_name {
   font-size: 34px;
   color: white;
 }
+
 .navbar_links {
   padding: 0;
   font-size: 20px;
@@ -42,16 +49,19 @@ button {
   display: flex;
   gap: 20px;
 }
+
 .navbar_logos {
   height: 40px;
   width: 40px;
 }
+
 .header_content {
   padding: 70px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
 .content_description {
   gap: 20px;
   text-align: center;
@@ -60,6 +70,7 @@ button {
   align-items: center;
   justify-content: center;
 }
+
 .content_title {
   margin: 0;
   align-items: center;
@@ -68,16 +79,16 @@ button {
   flex: 1;
   max-width: 403px;
 }
+
 /* Modify Canary Islands (text label) font*/
 .canary_text {
   font-family: "Poetsen One", sans-serif;
   font-weight: 800;
   font-style: normal;
 }
+
 .content_description button {
-  max-width: 150px;
-  border-radius: 10px;
-  font-family: "Poetsen One", sans-serif;
+  
 }
 
 /* Image width and height */
@@ -94,34 +105,42 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  margin-bottom: 30px;
 }
+
 .project_container p {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
+
 }
+
 .projects {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px;
   gap: 30px;
 }
+
 /*Style for each individual project*/
 .project {
+
   display: flex;
   flex-direction: column;
   background: transparent;
   gap: 20px;
 }
+
 .project button {
   background: transparent;
   border-radius: 12px;
   border-color: #3882f6;
 }
+
 /*Style for quote section*/
-.quote{
+.quote {
   display: flex;
   background-color: #E5E7EB;
   padding: 100px;
@@ -130,6 +149,20 @@ button {
 }
 
 /*Style for login section*/
+.newsletter_container {
+  height: 100px;
+  background-color: #3882f6;
+  font-family: "Poetsen One", sans-serif;
+  color: #E5E7EB;
+  border-radius: 25px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  padding: 25px;
+  gap: 200px;
+  }
+
 
 /*Style for the footer*/
 
