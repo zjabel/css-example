@@ -87,10 +87,6 @@ button {
   font-style: normal;
 }
 
-.content_description button {
-  
-}
-
 /* Image width and height */
 .content_img img {
   display: flex;
@@ -148,21 +144,22 @@ button {
   font-style: italic;
 }
 
-/*Style for login section*/
+/*Style for newsletter section*/
 .newsletter_container {
-  height: 100px;
+  display: flex;
+  justify-content: space-around;  
   background-color: #3882f6;
   font-family: "Poetsen One", sans-serif;
   color: #E5E7EB;
-  border-radius: 25px ;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 25px;  
   margin: 50px;
   padding: 25px;
-  gap: 200px;
-  }
+}
 
+.neswletter_items {  
+  align-items: center;  
+  gap: 100px;
+}
 
 /*Style for the footer*/
 
