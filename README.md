@@ -11,4 +11,4 @@ Just a template to practice my CSS skills. I'm doing the Odin Project to improve
 # Icons used
 * Linkedin icon created by riajulislam - Flaticon
 * Github icon created by riajulislam - Flaticon
-* Trheads icon created by Freepiks - Flaticon
+* Threads icon created by Freepiks - Flaticon
